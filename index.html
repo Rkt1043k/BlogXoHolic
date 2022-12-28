@@ -1,31 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="./css/home.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>BlogXoHolic</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogXoHolic</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-  <header class="header">
-    <div class="logo">
-      <img src="./img/logo.jpg" alt="BlogXoHolic">
-    </div>
-    <input type="checkbox" class="menu-icon" id="menu-icon">
-    <label for="menu-icon">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </label>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Category 1</a></li>
-        <li><a href="#">Cayegory 2</a></li>
-        <li><a href="#">Cayegory 3</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header id="header">
+        <section class="section">
+            <div class="title"><a href="#" class="nav-links one">BLOGXOHOLIC</a></div>
+            <label for="menu-icon">&#9776;</label>
+            <nav class="menu">
+                <a href="#" class="nav-links two">#my-projects</a>
+                <a href="#" class="nav-links three">#about</a>
+                <a href="#" class="nav-links four">#contact</a>
+                <a href="#" class="nav-links five">#blog</a>
+            </nav>
+        </section>
+        <input type="checkbox" id="menu-icon">
+        <div class="menu-box">
+            <nav class="mobile-menu">
+                <a href="#" class="nav-links two">#my-projects</a>
+                <a href="#" class="nav-links three">#about</a>
+                <a href="#" class="nav-links four">#contact</a>
+                <a href="#" class="nav-links five">#blog</a>
+            </nav>
+        </div>
+    </header>
+    <main id="hero">
+        <div class="container">
+            <p class="container-side-text">
+                New on blog
+            </p>
+            <!-- 1st -->
+            <div class="card-1">
+                <h1 class="card-1-title">
+                    ‘Roughly’ and ‘better’ can help usability
+                </h1>
+                <div class="card-1-container">
+                    <div class="img"><img src="./img/img-1.jpg" alt=""></div>
+                    <div class="card-1-container-box">
+                        <p class="card-1-container-text">In this article I’ll go into some fuzziness that we often
+                            encounter in the everyday world, that’s often missing in the world of computers.
+                            Unfortunately we’re used to this fuzziness, and so its lack can make computers hard to use.
+                            <br> I remember watching episodes of Star Trek where the Enterprise was in danger.
+                            Fortunately, the shields had kept the crew safe, but they were gradually failing. A crew
+                            member would call out to the rest of the bridge: “Shields at 78%!” and then later “Shields
+                            at 54%!” and so on. <span><a href="#" class="read-more">Read More...</a></span>
+                        </p>
+                    </div>
+                </div>
+                <!-- 2nd -->
+                <div class="card-1">
+                    <h1 class="card-1-title">
+                        How permanent is your data?
+                    </h1>
+                    <div class="card-1-container">
+                        <div class="img"><img src="./img/img-2.jpg" alt=""></div>
+                        <div class="card-1-container-box">
+                            <p class="card-1-container-text">This article was inspired by a video from the British
+                                Museum, where a conservator discusses a 500-year-old khipu. A khipu is a document, used
+                                for keeping records or accounts, made of knotted strings. <br> I recommend you watch the
+                                video – I found it really interesting and well-presented. I hadn’t come across khipus
+                                before, and they raised all sorts of interesting ideas and questions. <span><a href="#"
+                                        class="read-more">Read More...</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd -->
+                <div class="card-1">
+                    <h1 class="card-1-title">
+                        The coolest thing in technology?
+                    </h1>
+                    <div class="card-1-container">
+                        <div class="img"><img src="./img/img-3.jpg" alt=""></div>
+                        <div class="card-1-container-box">
+                            <p class="card-1-container-text">I listen to the podcast Data Driven. One of the questions
+                                that they ask all their guests is: What do you think is the coolest thing in technology?
+                                This article is my answer to that. The short version is: standards, and the benefits
+                                they bring to users. The longer version is below. <br> Standards might seem the opposite
+                                of cool, particularly in the world of technology where the parade of mayfly-like Latest
+                                Shiny Things seems to never come to a rest. It feels like saying the coolest thing about
+                                haute couture is its health. <span><a href="#" class="read-more">Read More...</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <section class="form-container">
+        <div class="container" id="contact">
+            <h2 class="contact-title">Contact Us</h2>
+            <form action="#" class="form">
+                <input type="text" class="name" name="name" placeholder="Enter Your Name Here">
+                <input type="email" name="email" class="email" placeholder="Enter Your Email Here">
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Enter Your Message Here"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        Copyright &copy; 2022 RAMAKANT TIWARI
+    </footer>
 </body>
+
 </html>
